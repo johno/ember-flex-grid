@@ -54,3 +54,19 @@ Now, you can use the grid with the following:
 * `ember build`
 
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+
+## License
+
+MIT
+
+## Contributing
+
+1. Fork it
+2. npm install
+3. bower install
+4. Create your feature branch (`git checkout -b my-new-feature`)
+5. Commit your changes (`git commit -am 'Add some feature'`)
+6. Push to the branch (`git push origin my-new-feature`)
+7. Create new Pull Request
+
+Crafted with <3 by [John Otander](http://johnotander.com).
