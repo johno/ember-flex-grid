@@ -1,3 +1,9 @@
 html, body {
   margin: 20px;
 }
+
+.grid-item {
+  background-color: #f8f8f8;
+  border: thin solid #fff;
+  padding: 1rem;
+}
