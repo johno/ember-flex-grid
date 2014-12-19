@@ -31,6 +31,12 @@ Now, you can use the grid with the following:
 {{/flex-grid}}
 ```
 
+## TODO
+
+- [ ] Viewport support
+- [ ] Update flex grid CSS
+- [ ] Use prefixed CSS
+
 ## Development
 
 ### Installation
