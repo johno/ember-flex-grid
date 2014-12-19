@@ -1,6 +1,7 @@
 {
   "name": "ember-flex-grid",
-  "version": "0.0.0",
+  "description": "Ember components for a responsive, mobile-first grid system based on flex.",
+  "version": "0.0.1",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -14,7 +15,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "John Otander",
   "license": "MIT",
   "devDependencies": {
     "body-parser": "^1.2.0",
@@ -31,7 +32,12 @@
     "glob": "^4.0.5"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "flex",
+    "grid",
+    "flex-grid",
+    "responsive",
+    "mobile-first"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
