@@ -23,9 +23,34 @@ Now, you can use the grid with the following:
     {{#flex-grid-item columns=10}}
       {{! ... }}
     {{/flex-grid-item}}
-
+  {{/flex-grid-row}}
+  {{#flex-grid-row}}
     {{#flex-grid-item columns=12}}
-      {{! ... }}
+      {{#flex-grid-row}}
+        {{#flex-grid-item columns=4}}
+          With
+        {{/flex-grid-item}}
+        {{#flex-grid-item columns=4}}
+          Nested
+        {{/flex-grid-item}}
+        {{#flex-grid-item columns=4}}
+          Grids
+        {{/flex-grid-item}}
+    {{/flex-grid-item}}
+  {{/flex-grid-row}}
+{{/flex-grid}}
+```
+
+Using the viewport options:
+
+```hbs
+{{#flex-grid}}
+  {{#flex-grid-row}}
+    {{#flex-grid-item columns=2 viewport='sm'}}
+      2
+    {{/flex-grid-item}}
+    {{#flex-grid-item columns=10 viewport='sm'}}
+      10
     {{/flex-grid-item}}
   {{/flex-grid-row}}
 {{/flex-grid}}
@@ -33,8 +58,9 @@ Now, you can use the grid with the following:
 
 ## TODO
 
-- [ ] Viewport support
-- [ ] Update flex grid CSS
+- [X] Viewport support
+- [ ] Improve viewport support, so one can set column numbers for multiple viewport sizes
+- [X] Update flex grid CSS
 - [ ] Use prefixed CSS
 
 ## Development
