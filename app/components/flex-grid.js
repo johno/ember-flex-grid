@@ -1,5 +1,3 @@
-import Ember from 'ember';
+import flexGrid from 'ember-flex-grid/components/flex-grid';
 
-export default Ember.Component.extend({
-  classNames: ['g']
-});
+export default flexGrid;
