@@ -1,7 +1,7 @@
 {
   "name": "ember-flex-grid",
   "description": "Ember components for a responsive, mobile-first grid system based on flex.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "directories": {
     "doc": "doc",
     "test": "tests"
